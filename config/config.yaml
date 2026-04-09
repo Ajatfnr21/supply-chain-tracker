@@ -1,0 +1,25 @@
+# Supply Chain Tracker Configuration
+
+app:
+  name: "Supply Chain Tracker"
+  version: "2.0.0"
+  debug: false
+
+features:
+  - End-to-end tracking
+  - Blockchain
+  - QR codes
+
+tech_stack:
+  - Hyperledger
+  - QR
+  - IoT
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+
+logging:
+  level: INFO
+  format: "%(asctime)s | %(levelname)s | %(message)s"
